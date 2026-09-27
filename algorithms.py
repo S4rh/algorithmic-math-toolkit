@@ -10,3 +10,12 @@ def lcm(a, b):
 
 def is_even(number):
     return number % 2 == 0
+
+def is_prime(number):
+    if number < 2:
+        return False
+    for divisor in range(2, number):
+        if number % divisor == 0:
+            return False
+
+    return True
