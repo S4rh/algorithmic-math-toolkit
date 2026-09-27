@@ -6,3 +6,7 @@ def gcd(a, b):
 
 def lcm(a, b):
     return abs(a * b) // gcd(a, b)
+
+
+def is_even(number):
+    return number % 2 == 0
